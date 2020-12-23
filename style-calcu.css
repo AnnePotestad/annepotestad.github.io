@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+	background-image: url(bg-pastel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form{
+	margin: auto;
+	width: 100px;
+	padding-top: 5rem;
+	padding-right: 14rem;
+
+}
+table{
+	background-color: black;
+	height: auto;
+	width: auto;
+
+}
+.monitor{
+	height: 3rem;
+	width: 18.5	rem;
+	font-family: Roboto;
+	font-size: 1.5rem;	
+	background-color: #bdbdbd;
+
+}
+.cancel, .total{
+	width: 8rem;
+	height: 2rem;
+	font-family: Roboto;
+	font-size: 1.5rem;	
+}
+.cancel{
+	background-color: red;
+}
+.total{
+	background-color: green;
+}
+
+.del, .operator, .numbutton, .numbutton1{
+	height: 2rem;
+	width: 2.5rem;
+	font-family: Roboto;
+	font-size: 1.5rem;	
+}
+.del{
+	background-color: red;
+}
+.operator{
+	border-radius: 10px;
+	background-color: 	#8a8a8a;	
+}
+.numbutton, .numbutton1{
+	background-color: 	#8a8a8a;
+}
